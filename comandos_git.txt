@@ -1,0 +1,26 @@
+___________________________________________ _INICIANDO GIT POR PRIMERA VEZ_______________________________________________
+
+git init                   -> se ejecuta el inicio de git para crar el repositorio en la carpeta donde se ejecuto
+
+
+git status                 -> verifica el estado del proyecto
+git add <archivo/carpeta>  -> agrega al staged/RAM los archivos o directorios que seran trackeados por git
+git add .                  -> agrega todos los archivos y carpetas a staged/RAM
+
+git rm --cached <archivo>  -> elimina el archivo almacenado en la momoria RAM/staged  
+
+git commit -m "comentario" -> envia los archivo añadidos a la base de datos de git
+git log <archivo>          -> muestra la historia de cambios del archivo
+git log                    -> muestra la historia de cambios de todo el proyecto
+
+                            "si es la primera vez interactuando con git toca configurarlo"
+
+
+____________________________________________________CONFIGURANDO GIT ___________________________________________________
+
+git config                      -> aqui podras enconctrar todas las configuraciones de git
+git config --list               -> podras ver la configuracion por defecto y las configuraciones faltantes en git
+git config --list --show-origin -> para ver donde estan guardadas las configuraciones de git (solo para casos avanzados)
+
+git config --global user.name "nombre"  -> hace un cambio global al nombre del usuario
+git config --global user.email "correo" -> hace un cambio al correo del usuario
