@@ -10,6 +10,9 @@ git add .                  -> agrega todos los archivos y carpetas a staged/RAM
 git rm --cached <archivo>  -> elimina el archivo almacenado en la momoria RAM/staged  
 
 git commit -m "comentario" -> envia los archivo añadidos a la base de datos de git
+                            "En caso de omitir el comentario git dispara el editor vim para agregar un comentario"
+	                    "tienes que hacer el comentario y guardas con (Esc + Shif + z + z) o ( (Ctrl + X) + Y)"
+
 git log <archivo>          -> muestra la historia de cambios del archivo
 git log                    -> muestra la historia de cambios de todo el proyecto
 
@@ -24,3 +27,26 @@ git config --list --show-origin -> para ver donde estan guardadas las configurac
 
 git config --global user.name "nombre"  -> hace un cambio global al nombre del usuario
 git config --global user.email "correo" -> hace un cambio al correo del usuario
+
+
+
+________________________________________________ANALIZANDO CAMBIOS EN GIT ______________________________________________
+
+git show <archivo>                       -> muestra una comparacion de los cambios realizados al archivo
+git log                                  -> muestra la historia de cambios del proyecto y los id de los commits
+git log --stat                           -> muestra los cambios especificos de los archivos
+
+git diff <id del commit> <id del commit> -> muestra las diferencias entre los cambios
+
+
+
+_____________________________________________________EL Ctrl Z DE GIT___________________________________________________
+
+git reset <id del commit> --hard -> todo vuelve al estado anterior del <id del commit>
+git reset <id del commit> --soft -> vuelve al estado anterior del <id del commit> pero mantiene lo que hay en staged/RAM
+
+
+___________________________________________COMO VOLVER UNA VERSION ANTERIOR EN GIT______________________________________
+
+git checkout <id del commit> <archivo>  -> regresas la version del <id del commmit> del <archivo>
+git checkout master <archivos>          -> regresas a la version actual del archivo  
