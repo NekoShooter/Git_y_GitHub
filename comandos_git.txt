@@ -1,4 +1,4 @@
-___________________________________________ _INICIANDO GIT POR PRIMERA VEZ_______________________________________________
+____________________________________________INICIANDO GIT POR PRIMERA VEZ_______________________________________________
 
 git init                   -> se ejecuta el inicio de git para crar el repositorio en la carpeta donde se ejecuto
 
