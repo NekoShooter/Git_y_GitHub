@@ -1,9 +1,9 @@
 # Git y GitHub
 ![banner Image](https://media.giphy.com/media/L2Yd6Z1cYAnPl5sPae/giphy.gif)
 
-## Este es un repositorio abierto
+## Repositorio abierto
 
-este es un repositorio libre para aplicar y practicar lo aprendido en el curso de [Git y GitHub](https://platzi.com/clases/git-github/).
+Este es un repositorio libre para practicar y aplicar lo aprendido en el curso de [Git y GitHub](https://platzi.com/clases/git-github/).
 ### contenido del repositorio asta el momento:
 
 [<a href="https://ibb.co/tmyz6yY"><img src="https://i.ibb.co/j67zY73/blogpost-html.png" alt="blogpost-html" border="0"></a>](https://ibb.co/tmyz6yY)
