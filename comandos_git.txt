@@ -63,3 +63,5 @@ git branch                       -> muestra las ramas creadas y señala la rama 
 
 git checkout <nombre de la rama> -> te mueves a la rama de trabajo
 git checkout master              -> regresas a la rama principal
+
+git merge <rama a fusionar>      -> fusiona la rama actual con la rama quese le indique 
