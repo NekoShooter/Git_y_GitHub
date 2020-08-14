@@ -59,5 +59,7 @@ git checkout master <archivos>          -> regresas a la version actual del arch
 ________________________________________________________RAMAS EN GIT____________________________________________________
 
 git branch <nombre de la rama>   -> creas una nueva rama de trabajo
+git branch                       -> muestra las ramas creadas y señala la rama en la que te encuentras
+
 git checkout <nombre de la rama> -> te mueves a la rama de trabajo
-git chckout master               -> regresas a la rama principal
+git checkout master              -> regresas a la rama principal
