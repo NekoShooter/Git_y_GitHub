@@ -3,7 +3,7 @@ ____________________________________________INICIANDO GIT POR PRIMERA VEZ_______
 git init                   -> se ejecuta el inicio de git para crar el repositorio en la carpeta donde se ejecuto
 
 
-git status                 -> verifica el estado del proyecto
+git status                 -> verifica el estado del proyecto en la rama actual
 git add <archivo/carpeta>  -> agrega al staged/RAM los archivos o directorios que seran trackeados por git
 git add .                  -> agrega todos los archivos y carpetas a staged/RAM
 
@@ -12,6 +12,8 @@ git rm --cached <archivo>  -> elimina el archivo almacenado en la momoria RAM/st
 git commit -m "comentario" -> envia los archivo añadidos a la base de datos de git
                             "En caso de omitir el comentario git dispara el editor vim para agregar un comentario"
 	                    "tienes que hacer el comentario y guardas con (Esc + Shif + z + z) o ( (Ctrl + X) + Y)"
+
+git commit -am "comentario"-> agrega y envia los cambios a un archivo que previamente ha sido trackeado por git
 
 git log <archivo>          -> muestra la historia de cambios del archivo
 git log                    -> muestra la historia de cambios de todo el proyecto
@@ -49,4 +51,13 @@ git reset <id del commit> --soft -> vuelve al estado anterior del <id del commit
 ___________________________________________COMO VOLVER UNA VERSION ANTERIOR EN GIT______________________________________
 
 git checkout <id del commit> <archivo>  -> regresas la version del <id del commmit> del <archivo>
-git checkout master <archivos>          -> regresas a la version actual del archivo  
+git checkout master <archivos>          -> regresas a la version actual del archivo
+
+
+
+
+________________________________________________________RAMAS EN GIT____________________________________________________
+
+git branch <nombre de la rama>   -> creas una nueva rama de trabajo
+git checkout <nombre de la rama> -> te mueves a la rama de trabajo
+git chckout master               -> regresas a la rama principal
