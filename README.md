@@ -5,9 +5,16 @@
 ## Repositorio abierto
 
 Este es un repositorio libre para practicar y aplicar lo aprendido en el curso de [Git y GitHub](https://platzi.com/clases/git-github/).
+
 ### contenido del repositorio asta el momento:
 
 [<a href="https://platzi.com/clases/1557-git-github/19939-funcion-de-ramas-con-git-mer-7/"><img src="https://i.ibb.co/j67zY73/blogpost-html.png" alt="blogpost-html" border="0"></a>](https://ibb.co/tmyz6yY)
+
+- #### [Comandos basicos de Git](https://github.com/NekoShooter/Git_y_GitHub/blob/master/comandos_git.txt)
+- #### [BlogPost](https://github.com/NekoShooter/Git_y_GitHub/blob/master/blogpost.html)
+- #### [Estilos CSS](https://github.com/NekoShooter/Git_y_GitHub/blob/master/css/estilos.css)
+- #### [Historia](https://github.com/NekoShooter/Git_y_GitHub/blob/master/historia.txt)
+
 
 #### Colaboradores asta el momento:
 Usuario | url | redes
