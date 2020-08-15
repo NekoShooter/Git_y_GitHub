@@ -64,4 +64,18 @@ git branch                       -> muestra las ramas creadas y señala la rama 
 git checkout <nombre de la rama> -> te mueves a la rama de trabajo
 git checkout master              -> regresas a la rama principal
 
-git merge <rama a fusionar>      -> fusiona la rama actual con la rama quese le indique 
+git merge <rama a fusionar>      -> fusiona la rama actual con la rama que se le indique
+
+
+
+_______________________________________________INTEGRANDO Git CON GitHub (HTML)_________________________________________
+
+git remote add <origin> <URL>    -> Agrega un origen remoto de nuestros archivos
+
+git remote                       -> Muestra nuestros origenes remotos
+git remote -v                    -> Muestra nuestros origenes remotos con las direcciones del repositorio
+
+git pull <origin> <master>                            -> Trae los cambios de GitHub al repositorio de Git
+git pull <origin> <master> --allow-unrelate-histories -> trae los cambios de GitHub y fuerza la intergracion con Git
+
+git push <origin> <master>       -> Empuja los cambios de Git al repositorio en Github
