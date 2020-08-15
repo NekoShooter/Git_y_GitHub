@@ -117,3 +117,30 @@ git pull <origin> <master>                             -> Trae los cambios de Gi
 git pull <origin> <master> --allow-unrelated-histories -> trae los cambios de GitHub y fuerza la intergracion con Git
 
 git push <origin> <master>       -> Empuja los cambios de Git al repositorio en Github
+
+
+
+____________________________________________ANALIZANDO CAMBIOS MAS PROFUNDOS EN GIT_____________________________________
+
+git log                                    -> muestra la historia de cambios del proyecto y los id de los commits
+git log --all                              -> muestra los todos los cambios sin excepcion
+git log --all --graph			   -> muestras los cambios de forma grafica como un arbol de cambios
+git log --all --graph --decorate --oneline -> muestras los cambios de forma grafica de forma comprimida
+
+alias <tu comando especial> "comando largo"-> crea un nuevo comendo creado por ti para no escribir comados largos
+
+
+
+___________________________________________________________TAGS EN GIT__________________________________________________
+
+git tag         		                         -> muestra los tags creados asta el momento
+git tag -a <nombre del tag> -m "mensaje" <id del commit> -> agrega un nuevo tag
+git show-ref --tags					 -> muestra los detalles del tag
+
+git push <origin> --tags 				 -> envia los tags al repositorio en internet
+
+git tag -d <nombre del tag>				 -> elimina de la base de datos del Git el tag
+git push <origin> :refs/tags/<nombre del tag>            -> elimina el tag del repositorio solo si esta eliminado en Git
+
+
+
