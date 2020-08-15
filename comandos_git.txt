@@ -144,3 +144,14 @@ git push <origin> :refs/tags/<nombre del tag>            -> elimina el tag del r
 
 
 
+_____________________________________________________ENVIAR RAMAS AL SERVIDOR___________________________________________
+
+git show-branch				-> muestra la historia de las ramas
+git show-branch --all			-> muestra la historia de la ramas de una forma mas completa
+
+gitk                                    -> muestra todo de forma visual en teoria deberia estar instalado por defecto
+
+git push <origin> <nombre de la rama>   -> envia la rama al repositorio
+git pull <origin> <nombre de la rama>   -> actualiza la rama
+
+
