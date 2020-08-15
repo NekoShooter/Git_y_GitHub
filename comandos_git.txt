@@ -76,6 +76,6 @@ git remote                       -> Muestra nuestros origenes remotos
 git remote -v                    -> Muestra nuestros origenes remotos con las direcciones del repositorio
 
 git pull <origin> <master>                            -> Trae los cambios de GitHub al repositorio de Git
-git pull <origin> <master> --allow-unrelate-histories -> trae los cambios de GitHub y fuerza la intergracion con Git
+git pull <origin> <master> --allow-unrelated-histories -> trae los cambios de GitHub y fuerza la intergracion con Git
 
 git push <origin> <master>       -> Empuja los cambios de Git al repositorio en Github
