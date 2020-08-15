@@ -75,7 +75,7 @@ git remote add <origin> <URL>    -> Agrega un origen remoto de nuestros archivos
 git remote                       -> Muestra nuestros origenes remotos
 git remote -v                    -> Muestra nuestros origenes remotos con las direcciones del repositorio
 
-git pull <origin> <master>                            -> Trae los cambios de GitHub al repositorio de Git
+git pull <origin> <master>                             -> Trae los cambios de GitHub al repositorio de Git
 git pull <origin> <master> --allow-unrelated-histories -> trae los cambios de GitHub y fuerza la intergracion con Git
 
 git push <origin> <master>       -> Empuja los cambios de Git al repositorio en Github
@@ -105,3 +105,15 @@ Host *
 
 
 
+________________________________________________INTEGRANDO Git CON GitHub (SSH)_________________________________________
+
+git remote add <origin> <SSH>    -> Agrega un origen remoto de nuestros archivos
+git remote set-url <origin> <SSH>-> Cambia la direccion del origen remoto
+
+git remote                       -> Muestra nuestros origenes remotos
+git remote -v                    -> Muestra nuestros origenes remotos con las direcciones del repositorio
+
+git pull <origin> <master>                             -> Trae los cambios de GitHub al repositorio de Git
+git pull <origin> <master> --allow-unrelated-histories -> trae los cambios de GitHub y fuerza la intergracion con Git
+
+git push <origin> <master>       -> Empuja los cambios de Git al repositorio en Github
