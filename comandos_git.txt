@@ -79,3 +79,29 @@ git pull <origin> <master>                            -> Trae los cambios de Git
 git pull <origin> <master> --allow-unrelated-histories -> trae los cambios de GitHub y fuerza la intergracion con Git
 
 git push <origin> <master>       -> Empuja los cambios de Git al repositorio en Github
+
+
+
+__________________________________CREACION DE UNA LLAVE PUBLICA Y UNA LLAVE PRIVADA (SSH)_______________________________
+
+
+ssh-keygen -t rsa -b 4096 -C "tu@email.com" -> Crea la llave "-t" indica el algoritmo (rsa) "-b" la complejidad (4096)
+
+Linux y Windows:
+
+eval $(ssh-agent -s)                        -> Enciende el servidor de llaves
+ssh-add <ruta de la llave id_rsa privada>   -> Agrega la llave al servidor
+
+Mac:
+
+eval "$(ssh-agent -s)"                      -> Enciende el servidor de llaves
+ssh-add -K <ruta de la llave id_rsa privada>-> Agrega la llave al servidor 
+	    				       "si no existe el archivo config se crea de la siguiente manera"
+
+Host *
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile <ruta de la llave id_rsa privada>
+
+
+
