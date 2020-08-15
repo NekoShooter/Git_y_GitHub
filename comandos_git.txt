@@ -155,3 +155,6 @@ git push <origin> <nombre de la rama>   -> envia la rama al repositorio
 git pull <origin> <nombre de la rama>   -> actualiza la rama
 
 
+_____________________________________________________CLONAR REPOCITORIO GITHUB__________________________________________
+
+git clone <URL> 			-> clona el repositorio
