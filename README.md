@@ -13,6 +13,7 @@ Este es un repositorio libre para practicar y aplicar lo aprendido en el curso d
 - #### [Comandos basicos de Git](https://github.com/NekoShooter/Git_y_GitHub/blob/master/comandos_git.txt)
 - #### [BlogPost](https://github.com/NekoShooter/Git_y_GitHub/blob/master/blogpost.html)
 - #### [Estilos CSS](https://github.com/NekoShooter/Git_y_GitHub/blob/master/css/estilos.css)
+- #### [Imagenes](https://github.com/NekoShooter/Git_y_GitHub/tree/master/imagenes)
 - #### [Historia](https://github.com/NekoShooter/Git_y_GitHub/blob/master/historia.txt)
 
 
