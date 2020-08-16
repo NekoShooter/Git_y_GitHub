@@ -1,5 +1,6 @@
 body
 {
+    background: #777;
     color: #333;
     text-align: center;
     font-family: Arial;
@@ -16,6 +17,11 @@ body
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+}
+
+#cebecera #logo
+{
+    vertical-aling: middle;
 }
 
 #cabecera #tagline
@@ -40,5 +46,6 @@ body
 }
 #post
 {
+    background: #fff;
     padding: 1em;
 }
