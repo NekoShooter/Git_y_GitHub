@@ -8,7 +8,7 @@ Este es un repositorio libre para practicar y aplicar lo aprendido en el curso d
 
 ### contenido del repositorio asta el momento:
 
-[<a href="https://platzi.com/clases/1557-git-github/19939-funcion-de-ramas-con-git-mer-7/"><img src="https://i.ibb.co/KypjDxR/blogpost-html.png" alt="blogpost-html" ></a>]()
+[<a href="https://platzi.com/clases/1557-git-github/19939-funcion-de-ramas-con-git-mer-7/"><img src="https://i.ibb.co/GWV2bbR/blogpost-html.png" alt="blogpost-html" ></a>]()
 
 - #### [Comandos basicos de Git](https://github.com/NekoShooter/Git_y_GitHub/blob/master/comandos_git.txt)
 - #### [BlogPost](https://github.com/NekoShooter/Git_y_GitHub/blob/master/blogpost.html)
