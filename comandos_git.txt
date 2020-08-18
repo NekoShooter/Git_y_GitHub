@@ -195,17 +195,28 @@ git add <archivo>              -> agregar los cambios al staged/RAM
 git commit --amend             -> pega el commit al commit anterior
 
 
-__________________________________________MOSTRAR TODA LA  HISTORIA INCLUSO SI ESTA FUE BORRADA_________________________
+_____________________________________MOSTRAR TODA LA  HISTORIA INCLUSO SI ESTA FUE BORRADA______________________________
 
 git reflog                       -> muestra toda la historia de todo incluso si fue borrada
 git reset --hard <id del commit> -> vuelvas a como si no hubiera pasado nada
 git switch -c <nombre de la rama>-> hace una rama en sin cambios (usado por si eliminaste esa rama)
 
 
-______________________________________________________BUSQUEDA EN ARCHIVOS Y EN RAMAS___________________________________
+_________________________________________________BUSQUEDA EN ARCHIVOS Y EN RAMAS________________________________________
 
 git grep <palabra>               -> encuentra la palabra en lugares donde esta
 git grep -n <palabra>            -> encuentra la palabra y en que lineas fuero usadas
 git grep -c <palabra>            -> cuenta cuantas veces fue usada la palabra
 
-git log -s <palabra>             -> encuentra la palabra usada durante la historia del proyecto
+git log -S <palabra>             -> encuentra la palabra usada durante la historia del proyecto
+
+
+__________________________________________________CONTROL DE LOS COLABORADORES__________________________________________
+
+git shortlog                       -> muestra quien hice que cambios
+git shortlog -sn                   -> muestra cuantos commits han hecho los colaboradores
+git shortlog -sn --all             -> muestra cuantos commits han hecho colaboradores incluso lo que ya no estan
+git shortlog -sn --all --no-marges -> muestra solos nos commits no los marges
+
+git blame <archivo>                        -> muestra que se hizo y quien hizo el cambio
+git blame <archivo> -L<numero>,<numero>    -> muestra los cambios de esas lineas y quien las hizo
