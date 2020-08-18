@@ -126,6 +126,7 @@ git log                                    -> muestra la historia de cambios del
 git log --all                              -> muestra los todos los cambios sin excepcion
 git log --all --graph			   -> muestras los cambios de forma grafica como un arbol de cambios
 git log --all --graph --decorate --oneline -> muestras los cambios de forma grafica de forma comprimida
+git log --oneline                          -> muestra la hsitoria de los cambios de forma comprimida
 
 alias <tu comando especial> "comando largo"-> crea un nuevo comendo creado por ti para no escribir comados largos
 
@@ -182,3 +183,7 @@ ______________________________________________________________LIMPIAR GIT_______
 git clean --dry-run            -> crea un borrador de los archivos que se van a eliminar
 git clean -f                   -> borra los archivos he ignora aquellos que esten dentro del .gitignore
 git clean -df                  -> borra las carpetas
+
+________________________________________________FUSIONAR UN COMMIT ESPECIFICO A UNA RAMA________________________________
+
+git cherry-pick <id del commit copiado de una rama> -> fusiona el commit de una rama en la rama en donde te encuentras
