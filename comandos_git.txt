@@ -158,3 +158,12 @@ git pull <origin> <nombre de la rama>   -> actualiza la rama
 _____________________________________________________CLONAR REPOCITORIO GITHUB__________________________________________
 
 git clone <URL> 			-> clona el repositorio
+
+
+____________________________________________________REORGANIZAR REPOSITORIO LOCAL_______________________________________
+
+git rebase <rama master>       -> mescla las historias de la rama actual con la master (tambien se debe hacer en master)
+git add                        -> agrega los cambios al staged/RAM
+git rebase --continue          -> continua con el rebase
+git rebase --skip              -> omite el commit
+git branch -D <rama>	       -> elimina la rama
