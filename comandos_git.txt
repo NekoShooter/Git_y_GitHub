@@ -174,3 +174,4 @@ git stash                      -> almacena de manera temporal un cambio para ser
 git stash list                 -> muestra una lista de los cambios aguardados en el stash
 git stash pop                  -> integra los cambios aguardados en el stash
 git stash drop                 -> elimina lo almacenado en el stash
+git stash branch <nueva rama>  -> crea una nueva rama para aplicar los cambios
