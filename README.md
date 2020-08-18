@@ -1,4 +1,4 @@
-<p align="center"> Git y GitHub<p/>
+<h1 align="center"> Git y GitHub<h1/>
 
 <p align="center"><a href="https://github.com/NekoShooter"><img src="https://media.giphy.com/media/L2Yd6Z1cYAnPl5sPae/giphy.gif" alt="anime git"></a><p/>
 
@@ -8,11 +8,8 @@ Este es un repositorio libre para practicar y aplicar lo aprendido en el curso d
 
 ### contenido del repositorio asta el momento:
 
-<<<<<<< HEAD
-[<a href="https://platzi.com/clases/1557-git-github/19939-funcion-de-ramas-con-git-mer-7/"><img src="https://i.ibb.co/2WsZjdr/blogpost-html.png" alt="blogpost-html" ></a>]()
-=======
 <p align="center"><a href="https://platzi.com/clases/1557-git-github/19939-funcion-de-ramas-con-git-mer-7/"><img src="https://i.ibb.co/j67zY73/blogpost-html.png" alt="blogpost-html"></a><p/>
->>>>>>> a358086... readme mejorado
+
 
 - #### [Comandos basicos de Git](https://github.com/NekoShooter/Git_y_GitHub/blob/master/comandos_git.txt)
 - #### [BlogPost](https://github.com/NekoShooter/Git_y_GitHub/blob/master/blogpost.html)
