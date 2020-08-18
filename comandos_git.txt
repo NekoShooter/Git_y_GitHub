@@ -162,9 +162,9 @@ git clone <URL> 			-> clona el repositorio
 
 ____________________________________________________REORGANIZAR REPOSITORIO LOCAL_______________________________________
 
-git rebase <rama master>       -> mescla las historias de la rama actual con la master (tambien se debe hacer en master)
-git add                        -> agrega los cambios al staged/RAM
-git rebase --continue          -> continua con el rebase
+git rebase <rama master>       -> mezcla las historias de la rama actual con la master (tambien se debe hacer en master)
+git add <archivo>              -> para agregar un cambio o solucion de conflicto
+git rebase --continue          -> una vez resuelto el conflicto continua con el rebase
 git rebase --skip              -> omite el commit
 git branch -D <rama>	       -> elimina la rama
 
@@ -180,5 +180,5 @@ git stash branch <nueva rama>  -> crea una nueva rama para aplicar los cambios
 ______________________________________________________________LIMPIAR GIT_______________________________________________
 
 git clean --dry-run            -> crea un borrador de los archivos que se van a eliminar
-git clean -f                   -> borra los archivos he ignora aquellos que tengan el gitignore
+git clean -f                   -> borra los archivos he ignora aquellos que esten dentro del .gitignore
 git clean -df                  -> borra las carpetas
