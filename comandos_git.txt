@@ -193,3 +193,9 @@ _________________________________________________________RE-CONSTRUIR UN COMMIT_
 
 git add <archivo>              -> agregar los cambios al staged/RAM
 git commit --amend             -> pega el commit al commit anterior
+
+
+__________________________________________MOSTRAR TODA LA  HISTORIA INCLUSO SI ESTA FUE BORRADA_________________________
+
+git reflog                       -> muestra toda la historia de todo incluso si fue borrada
+git reset --hard <id del commit> -> vuelvas a como si no hubiera pasado nada
