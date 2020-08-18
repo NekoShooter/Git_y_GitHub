@@ -199,4 +199,13 @@ __________________________________________MOSTRAR TODA LA  HISTORIA INCLUSO SI E
 
 git reflog                       -> muestra toda la historia de todo incluso si fue borrada
 git reset --hard <id del commit> -> vuelvas a como si no hubiera pasado nada
-git switch -c <nombre de la rama>-> hace una rama en sin cambios (usado por si eliminaste esa rama) 
+git switch -c <nombre de la rama>-> hace una rama en sin cambios (usado por si eliminaste esa rama)
+
+
+______________________________________________________BUSQUEDA EN ARCHIVOS Y EN RAMAS___________________________________
+
+git grep <palabra>               -> encuentra la palabra en lugares donde esta
+git grep -n <palabra>            -> encuentra la palabra y en que lineas fuero usadas
+git grep -c <palabra>            -> cuenta cuantas veces fue usada la palabra
+
+git log -s <palabra>             -> encuentra la palabra usada durante la historia del proyecto
