@@ -5,5 +5,11 @@ Marco Antonio osea yo XD:
 Aunque me especializo en c y c++ tengo un proyecto en mente y pretendo aprender html, css y python por el lado del desarrollo web para poder concretarlo.
 En que consiste : viendo los problemas de administracion de los pequeños negocios cercanos a mi se me ocurrio la idea de crear una plataforma para poder ayudarlos
 	          con invetarios, estadisticas he informacion financiaria de una forma intuitiva y totalmente gratuita.
+
 master 1
 master 2
+
+
+
+experimento 1
+experimento 2
