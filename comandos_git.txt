@@ -199,3 +199,4 @@ __________________________________________MOSTRAR TODA LA  HISTORIA INCLUSO SI E
 
 git reflog                       -> muestra toda la historia de todo incluso si fue borrada
 git reset --hard <id del commit> -> vuelvas a como si no hubiera pasado nada
+git switch -c <nombre de la rama>-> hace una rama en sin cambios (usado por si eliminaste esa rama) 
