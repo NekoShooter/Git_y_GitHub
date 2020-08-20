@@ -23,3 +23,7 @@ Usuario | url | redes
 --- | --- | ---
 Marco Antonio | [GitHub](https://github.com/NekoShooter) | [twitter](https://twitter.com/Marco_Animacion) - [youtube](https://www.youtube.com/channel/UCHJiiKBhmjGY8jkZYBZ8pHA?view_as=subscriber) - [instagram](https://www.instagram.com/marcoantonio_m_a/) - [facebook](https://www.facebook.com/MarcoAnGM)
 NEW | url | [twitter](https://twitter.com) - [youtube](https://www.youtube.com) - [instagram](https://www.instagram.com) - [facebook](https://www.facebook.com) 
+
+
+<h6 align="center">Lenguajes usados:<h6/>
+  <p align="center"><b>CSS      HTML<b/><p/>
